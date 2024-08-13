@@ -9,8 +9,6 @@ cask 'baidunetdisk' do
   name '百度网盘'
   homepage 'https://pan.baidu.com/download'
 
-  depends_on macos: '>= :yosemite'
-
   app 'BaiduNetdisk_mac.app'
 
   zap trash: [
