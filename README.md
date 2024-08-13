@@ -8,6 +8,8 @@ $ brew tap way-huang/repo
 
 ### Formula
 
+* **[BBDown](https://github.com/nilaoda/BBDown)**: A command-line Bilibili downloader
+
 ### Casks
 
 * **[iProxy](https://github.com/xcodebuild/iProxy)**: Cross platform Web debugging proxy
