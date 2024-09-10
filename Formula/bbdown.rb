@@ -1,20 +1,20 @@
 class Bbdown < Formula
   desc "Bilibili Downloader is acommand-line Bilibili downloader"
   homepage "https://github.com/nilaoda/BBDown"
-  version "1.6.2"
+  version "1.6.3,20240814"
  
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/nilaoda/BBDown/releases/download/1.6.2/BBDown_1.6.2_20240512_osx-x64.zip"
-    sha256 "b0e8275eaae5d8a13bf66f5ba8f294b7e61d658be86bac6201a764162b20b0d7"
+    url "https://github.com/nilaoda/BBDown/releases/download/#{version.csv.first}/BBDown_#{version.csv.first}_#{version.csv.second}_osx-x64.zip"
+    sha256 "262c15ca7890898560d00e5ffd5ada1864fbd9d0d58ac4ee492c9f3e73f3ae5f"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/nilaoda/BBDown/releases/download/1.6.2/BBDown_1.6.2_20240512_osx-arm64.zip"
-    sha256 "65e81ecdf574c2ee8d2d7c36afcc17a67c53e0172acc6f8f642d89da698ed44d"
+    url "https://github.com/nilaoda/BBDown/releases/download/#{version.csv.first}/BBDown_#{version.csv.first}_#{version.csv.second}_osx-arm64.zip"
+    sha256 "4df84014d818bd6dff2b365b847645340e8955c4450fe965688f41af89a38baa"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/nilaoda/BBDown/releases/download/1.6.2/BBDown_1.6.2_20240512_linux-x64.zip"
-    sha256 "1a5e3889655e5ae6d1b4bac7c9c67d9a3ba7a95eb6d0a3f3553030ee5483bba9"
+    url "https://github.com/nilaoda/BBDown/releases/download/#{version.csv.first}/BBDown_#{version.csv.first}_#{version.csv.second}_linux-x64.zip"
+    sha256 "ec233b7d8d40b1cc4447dac05be343f53a757dc605743a8808abaa8e97e5d10e"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/nilaoda/BBDown/releases/download/1.6.2/BBDown_1.6.2_20240512_linux-arm64.zip"
-    sha256 "3d3a1e105b8518e573f8817c1cecb6c4d18d2678c78f979e7224ea92892ef065"
+    url "https://github.com/nilaoda/BBDown/releases/download/#{version.csv.first}/BBDown_#{version.csv.first}_#{version.csv.second}_linux-arm64.zip"
+    sha256 "f58e0a18df1a589375428a0af27ea61f5ce96ffaf67d115f335d5f9bee9a34dc"
   end
 
   def install
