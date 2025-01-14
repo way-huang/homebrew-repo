@@ -2,7 +2,6 @@ class Bbdown < Formula
   desc "Bilibili Downloader is acommand-line Bilibili downloader"
   homepage "https://github.com/nilaoda/BBDown"
   version "1.6.3"
-  version_date "20240814"
  
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/nilaoda/BBDown/releases/download/#{version}/BBDown_#{version}_#{version_date}_osx-x64.zip"
