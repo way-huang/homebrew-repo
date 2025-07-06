@@ -7,5 +7,5 @@ cask 'azahar' do
   name 'Azahar Emulator'
   homepage 'https://azahar-emu.org/'
 
-  app 'Azahar.app'
+  app "azahar-#{version}-macos-universal/Azahar.app"
 end
