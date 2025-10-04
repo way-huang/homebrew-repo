@@ -5,6 +5,7 @@ cask "siyuan-notes@patch" do
   on_arm do
     url "https://github.com/demoshang/siyuan-patch/releases/download/v#{version}/siyuan-v#{version}-mac-arm64.dmg"
   end
+
   on_intel do
     url "https://github.com/demoshang/siyuan-patch/releases/download/v#{version}/siyuan-v#{version}-mac.dmg"
   end
