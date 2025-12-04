@@ -8,10 +8,11 @@ cask "font-iosevka-combined-essential" do
   
   depends_on cask: "font-iosevka-essential"
   depends_on cask: "font-iosevka-term-essential"
+  depends_on cask: "font-iosevka-aile-essential"
  
   caveats <<~EOS
-    Iosevka Essential and Iosevka Term Essential are installed.
+    Iosevka Essential, Iosevka Term Essential and Iosevka Aile Essential are installed.
     You can use the following command to install them separately:
-    brew install --cask font-iosevka-essential font-iosevka-term-essential
+    brew install --cask font-iosevka-essential font-iosevka-term-essential font-iosevka-aile-essential
   EOS
 end
