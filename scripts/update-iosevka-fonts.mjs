@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 
-const __dirname = import.meta.dir;
+const __dirname = import.meta.dirname;
 
 const CASKS_DIR = path.join(__dirname, '..', 'Casks', 'font-iosevka');
 const SHA256_URL_TEMPLATE =
