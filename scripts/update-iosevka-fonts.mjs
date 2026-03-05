@@ -247,7 +247,4 @@ async function main() {
   }
 }
 
-// 运行主函数
-if (import.meta.main) {
-  main();
-}
+main();
