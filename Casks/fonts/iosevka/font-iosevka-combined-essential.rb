@@ -1,5 +1,5 @@
 cask "font-iosevka-combined-essential" do
-  version "34.2.1"
+  version "34.3.0"
   sha256 :no_check
 
   url "https://www.webpagetest.org/blank.html"

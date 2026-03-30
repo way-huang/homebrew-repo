@@ -13,7 +13,7 @@ import { execSync } from 'child_process';
 
 const __dirname = import.meta.dirname;
 
-const CASKS_DIR = path.join(__dirname, '..', 'Casks', 'font-iosevka');
+const CASKS_DIR = path.join(__dirname, '..', 'Casks', 'fonts', 'iosevka');
 const SHA256_URL_TEMPLATE =
   'https://github.com/be5invis/Iosevka/releases/download/v{VERSION}/SHA-256.txt';
 

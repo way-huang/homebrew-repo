@@ -1,6 +1,6 @@
 cask "font-iosevka-essential" do
-  version "34.2.1"
-  sha256 "71b43d41859b5a039ba605f7a9eb305b3da6dc2d64fc886cb1bb556293b33f97"
+  version "34.3.0"
+  sha256 "5cd0bef94054a2972b789846b07ebb0d8ec10b0604f88116988697323179ecf9"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTF-Iosevka-#{version}.zip"
   name "Iosevka Essential"
