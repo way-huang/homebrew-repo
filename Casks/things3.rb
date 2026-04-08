@@ -1,5 +1,5 @@
 cask "things3" do
-  version "3.22.7"
+  version "3.22.11"
   sha256 :no_check
   url "https://static.culturedcode.com/things/Things3.zip"
   name "Things"
