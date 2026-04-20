@@ -1,6 +1,6 @@
 cask "font-iosevka-aile-essential" do
-  version "34.3.0"
-  sha256 "0d526c89b56a4cac21c5dcf70c8530c75b8f6bd47ae1db1e67ffbdc885efb3dc"
+  version "34.4.0"
+  sha256 "23f27046c75a456a121a132296be498bf199dd75a779d4af35143de5ba0fad74"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTF-IosevkaAile-#{version}.zip"
   name "Iosevka Aile Essential"
