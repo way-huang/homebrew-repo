@@ -1,7 +1,7 @@
 class Coco < Formula
   desc ""
   homepage ""
-  version "0.120.22"
+  version "0.120.23"
 
   # Read base URL from config file or environment variable
   def self.base_url
@@ -18,12 +18,12 @@ class Coco < Formula
   on_macos do
     on_intel do
       url "#{base_url}/coco_#{version}_darwin_amd64.tar.gz"
-      sha256 "ef618f17028c531469a91ff27cd76f650e6096a2ee854fa70c442ebf066c1fdb"
+      sha256 "6796fb6881bce269244f1a5436f098953193534196429c7f69f8f2b6df2fd913"
     end
 
     on_arm do
       url "#{base_url}/coco_#{version}_darwin_arm64.tar.gz"
-      sha256 "14851b6a4ca2eac26b861c10ce5c120f263354f9a57414d71b4a6cf0b7111470"
+      sha256 "2de2eace1c4cebd56933a9bb85e098eb31163a8094370881c7eed073c65f9171"
     end
   end
 
