@@ -1,6 +1,6 @@
 cask 'azahar' do
-  version '2122.1'
-  sha256 'a9adf930747b65b962003fc0057c2dc95ebe0872a51e29e451785e9a9f34101b'
+  version '2125.1.2'
+  sha256 'sha256:5d3aedc3840cf3b536caea9e9b60811e6c3a07475e2e5a36d816ffcbd58eecb4'
 
   url "https://github.com/azahar-emu/azahar/releases/download/#{version}/azahar-#{version}-macos-universal.zip"
   desc 'Azahar is an open-source 3DS emulator based on Citra'
